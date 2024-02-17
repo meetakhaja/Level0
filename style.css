@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Inter", sans-serif;
+}
+#main {
+  height: 100%;
+  width: 100%;
+}
+#mainheader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 40px;
+  height: 100px;
+  width: 100%;
+}
+/* button {
+  font-family: "Inter", sans-serif;
+}
+.b-1 {
+  font-family: "Inter", sans-serif;
+}
+.b-2 {
+  font-family: "Inter", sans-serif;
+} */
+#main-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#main-1 h3 {
+  font-size: 17px;
+  border: 1px solid black;
+  padding: 5px 8px;
+  border-radius: 50px;
+  font-weight: 500px;
+}
+#main-1 i {
+  font-size: 17px;
+  border: 1px solid black;
+  padding: 5px 8px;
+  border-radius: 50px;
+  font-weight: 500px;
+}
+
+#main-2 h1 {
+  text-transform: uppercase;
+  font-weight: 500px;
+}
+#main-3 button {
+  border-radius: 10px;
+  padding: 5px 8px;
+  border-radius: 50px;
+  border: 1px solid black;
+  font-size: 17px;
+  font-weight: 600;
+  background-color: white;
+}
+#main-3 .b-2 {
+  background-color: orangered;
+  color: white;
+}
+#main > h1 {
+  text-transform: uppercase;
+  font-size: 140px;
+  font-weight: 100;
+  font-family: "Luckiest Guy", cursive;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+}
+img {
+  height: 350px;
+  width: 250px;
+  border-radius: 20px;
+  object-fit: cover;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#img1 {
+  transform: translate(-50%, -50%) rotate(-40deg);
+}
+#img2 {
+  transform: translate(-50%, -50%) rotate(-30deg);
+}
+#img3 {
+  transform: translate(-50%, -50%) rotate(-20deg);
+}
+#img4 {
+  transform: translate(-50%, -50%) rotate(-10deg);
+}
+#btm-left {
+  position: absolute;
+  bottom: 5%;
+  left: 3%;
+  font-size: 17px;
+}
+#btm-right {
+  position: absolute;
+  bottom: 5%;
+  right: 3%;
+  font-size: 17px;
+}
+#btmi {
+  display: flex;
+  position: absolute;
+  bottom: 0%;
+  right: 3%;
+  font-size: 17px;
+}
+.ri-github-fill {
+  margin: 10px;
+  font-size: 20px;
+}
+.ri-youtube-fill {
+  margin: 10px;
+  font-size: 20px;
+}
+.ri-instagram-fill {
+  margin: 10px;
+  font-size: 20px;
+}
