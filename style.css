@@ -21,15 +21,6 @@ body {
   height: 100px;
   width: 100%;
 }
-/* button {
-  font-family: "Inter", sans-serif;
-}
-.b-1 {
-  font-family: "Inter", sans-serif;
-}
-.b-2 {
-  font-family: "Inter", sans-serif;
-} */
 #main-1 {
   display: flex;
   align-items: center;
